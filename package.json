@@ -1,0 +1,46 @@
+{
+    "name": "blueprint-theme",
+    "displayName": "BluePrint Theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Flow (BluePrint)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Flow.json"
+            },
+            {
+                "label": "Numb (BluePrint)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Numb.json"
+            },
+            {
+                "label": "Github (BluePrint)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Github.json"
+            },
+            {
+                "label": "Flow-New (BluePrint)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Flow.New.json"
+            },
+            {
+                "label": "Flow-Anti (Renaissance)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Flow.Anti.json"
+            },
+            {
+                "label": "Flow-Old (Renaissance)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Flow.Old.json"
+            }
+        ]
+    }
+}
